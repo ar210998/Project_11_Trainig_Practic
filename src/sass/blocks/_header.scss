@@ -39,3 +39,44 @@
         margin: 8px 0 0 0;
     }
 }
+
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 190px;
+        }
+        &__official {
+            font-size: 11px;
+            line-height: 11px;
+            span {
+                font-size: 16px;
+                line-height: 16px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__button {
+            margin: 8px 0 0 0;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 160px;
+        }
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size: 13px;
+            line-height: 13px;
+        }
+        &__button {
+            margin: 8px 0 0 0;
+        }
+    }
+}
