@@ -1,0 +1,18 @@
+@import 'base/variables';
+@import 'base/mixins';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoSansCyrl', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 950px;
+}
+
