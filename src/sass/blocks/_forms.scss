@@ -1,0 +1,33 @@
+.feed-form {
+    margin: 36px 0 0 0;
+    width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    input {
+        margin: 15px 0 0 0;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        padding: 0 20px;
+        font-size: 14px;
+        font-weight: 300;
+        &:first-child {
+            margin: 0; 
+        }
+    }
+
+}
+
+@media (max-width: 575px) {
+    .feed-form {
+        margin: 36px 0 0 0;
+        width: 260px;
+        input {
+            margin: 15px 0 0 0;
+            height: 43px;
+            padding: 0 17px;
+            font-size: 12px;
+        }
+    
+    }
+}
