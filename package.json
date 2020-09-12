@@ -1,5 +1,5 @@
 {
-  "name": "project_11_trainig_practip",
+  "name": "project_11_trainig_practic",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git"
+    "url": "git+https://github.com/ar210998/Project_11_Trainig_Practic.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/ar210998/Project_11_Trainig_Practic/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/ar210998/Project_11_Trainig_Practic#readme",
   "devDependencies": {
     "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
@@ -24,6 +24,5 @@
     "gulp-cli": "^2.3.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0"
-  },
-  "dependencies": {}
+  }
 }

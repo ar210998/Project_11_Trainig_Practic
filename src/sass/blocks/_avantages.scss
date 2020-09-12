@@ -3,13 +3,6 @@
     min-height: 472px;
     background-color: #f6f6f6;
     color: #0d0d0d;
-    &__header {
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 30px;
-        text-align: center;
-        text-transform: uppercase;
-    }
     &__wrapper {
         display: flex;
         flex-flow: row nowrap;
@@ -51,10 +44,6 @@
 
 @media (max-width: 767px) {
     .avantages {
-        &__header {
-            font-size: 25px;
-            line-height: 25px;
-        }
         &__wrapper {    
             margin: 0 auto;
             width: 100%;
@@ -73,10 +62,6 @@
 
 @media (max-width: 575px) {
     .avantages {
-        &__header {
-            font-size: 20px;
-            line-height: 20px;
-        }
         &__wrapper {    
             flex-flow: column nowrap;
             justify-content: flex-start;

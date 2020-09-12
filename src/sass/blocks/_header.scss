@@ -65,18 +65,28 @@
 
 @media (max-width: 575px) {
     .header {
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
         &__logo {
-            width: 160px;
+            width: 250px;
         }
         &__official {
             display: none;
         }
+        &__contacts {
+            margin: 10px 0 0 0;
+            width: 100%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+        }
         &__phone {
-            font-size: 13px;
-            line-height: 13px;
+            font-size: 18px;
         }
         &__button {
-            margin: 8px 0 0 0;
+            margin: 0;
         }
     }
 }
