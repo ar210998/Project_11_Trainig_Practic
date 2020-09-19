@@ -48,6 +48,7 @@
         border: solid 2px #e8e8e8;
         padding: 20px 20px 26px 20px;
         overflow: hidden;
+        animation-duration: 1s;
         &__img {
             margin: 0 auto;
             max-width: 100%;
@@ -101,10 +102,12 @@
             padding: 0 22px 0 17px;
             transform: translateX(-100%);
             transition: 1s all;
-            list-style-type: none;
             opacity: 0;
             &_active {
                 opacity: 1;
+            }
+            ul {
+                list-style-type: none;
             }
             li {
                 margin: 0 0 20px 0;
