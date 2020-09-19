@@ -15,19 +15,32 @@
             margin: 0; 
         }
     }
-
+    &_mt25 {
+        margin: 25px 0 0 0;
+    }
 }
 
 @media (max-width: 575px) {
     .feed-form {
-        margin: 36px 0 0 0;
         width: 260px;
         input {
-            margin: 15px 0 0 0;
             height: 43px;
             padding: 0 17px;
             font-size: 12px;
         }
-    
+    }
+}
+
+@media (max-width: 575px), (max-height: 575px) {
+    .feed-form {
+        width: 260px;
+        input {
+            height: 43px;
+            padding: 0 17px;
+            font-size: 12px;
+        }
+        &_mt25 {
+            margin: 20px 0 0 0;
+        }
     }
 }

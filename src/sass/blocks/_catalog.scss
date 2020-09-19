@@ -19,9 +19,9 @@
         text-align: center;
         text-transform: uppercase;
         cursor: pointer;
-        transition: 1s all;
+        transition: 0.5s all;
         &:hover {
-            box-shadow: 0 0 40px blue;
+            box-shadow: -5px 5px 4px #6b6b6b;
         }
         p {
             transform: skewX(25deg); 
@@ -178,6 +178,15 @@
         }
     }
 }
+@media (max-width: 991px) {
+    .catalog {
+        &__tab {
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    }
+}
 
 @media (max-width: 767px) {
     .catalog {
@@ -190,10 +199,6 @@
             width: 160px;
             font-size: 16px;
             line-height: 36px;
-            transition: 1s all;
-            &:hover {
-                box-shadow: none;
-            }
         }
         &__content {
             &_active {
